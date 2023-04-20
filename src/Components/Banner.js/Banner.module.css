@@ -1,0 +1,97 @@
+.banner {
+   max-width: 870px;
+}
+
+.bannerText p,
+ul {
+  text-align: center;
+  color: #e4e2e2ee;
+  font-size: 0.5rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.section h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.banner p {
+  font-size: 0.8rem;
+  color: #e4e2e2ee;
+  text-align: center;
+}
+
+.banner {
+  min-height: 80vh;
+  position: relative;
+}
+
+.logoContainer {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.logo {
+  width: 60px;
+  padding: 10px;
+}
+
+.bannerImage {
+  filter: brightness(0.7);
+  margin-right: 0.5em;
+  max-width: 480px;
+}
+
+.bannerText {
+  position: absolute;
+  top: 2%;
+  left: 60%;
+}
+
+.bannerText ul {
+  margin-top: 1.8rem;
+  line-height: 1.8;
+}
+
+.fitticket {
+  position: absolute;
+  bottom: 17%;
+  padding-left: 20px;
+  max-width: 350px;
+}
+
+.fitticket h1::after {
+  position: absolute;
+  content: " ";
+  height: 20px;
+  background-color: red;
+  width: 30px;
+}
+
+@media (min-width: 700px) {
+  .bannerText p,
+  ul {
+    font-size: 0.7rem;
+  }
+
+
+  .banner ul {
+    line-height: 3;
+  }
+  .fitticket {
+    position: absolute;
+    bottom: 17%;
+    left: 40%;
+  }
+
+  .banner h1 {
+    font-size: 4rem;
+    font-weight: 900;
+  }
+
+  .bannerText {
+    left: 50%;
+  }
+}

@@ -1,0 +1,37 @@
+.sectionText{
+  margin-bottom: 1.8em;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
+}
+
+section h2, section p {
+  text-align: center;
+  line-height: 2;
+}
+
+
+
+@media (min-width: 900px) {
+
+
+  section {
+    flex-wrap: nowrap;
+  }
+  
+  .sectionleft {
+    flex-direction: row-reverse;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  section img {
+    width: 50%;
+  }
+}
+
+
