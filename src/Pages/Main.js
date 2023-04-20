@@ -13,7 +13,7 @@ const Main = () => {
             <main className={styles.container}>
                 <SectionRight
                     heading='Book Movies'
-                    text='Going on a movie date has never been so covenient. Book Movies on our website gives to you extra time to have fun'
+                    text='Going on a movie date has never been so covenient. Booking Movies on our website gives to you extra time to have fun'
                     src='img/img-02.png'
                 />
 
